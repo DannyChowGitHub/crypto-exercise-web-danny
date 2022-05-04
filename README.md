@@ -1,4 +1,6 @@
 # Danny Chow crypto.com interview
+[backend repo](https://github.com/DannyChowGitHub/crypto-exercise-api-danny)
+[frontend repo](https://github.com/DannyChowGitHub/crypto-exercise-web-danny)
 
 ## The libraries are used in this project
 ### Front End
@@ -48,7 +50,7 @@ The Code implemented in Typescript and checked quality by eslint.
 ## Are there any test cases coverage
 You can run below command to run test in the backend project(golang)
 ```
-  go test
+  go test ./services
 ```
 
 ## How to run
@@ -59,7 +61,7 @@ You can run below command to run test in the backend project(golang)
 
 2. start the frontend project
 ```
-  yarn build && yarn start
+  yarn && yarn start
 ```
 
 3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
